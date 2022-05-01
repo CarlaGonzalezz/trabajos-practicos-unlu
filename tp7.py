@@ -175,7 +175,7 @@ def lluvia():
          total = mililitros
          dia = contador
 
-promedio = suma / contador
-print(f"El promedio en ml es: {promedio} ")
+  promedio = suma / contador
+  print(f"El promedio en ml es: {promedio} ")
 
 lluvia()
