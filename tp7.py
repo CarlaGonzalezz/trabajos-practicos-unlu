@@ -65,8 +65,7 @@ numeroPositivo()
 #150.
 
 def sumarNumeros():
-    x = 0
-    numero = 0
+    numero = 0 # No hace falta, pero no esta mal
     for x in range(75, 151):
         numero += x
     print (numero) 
@@ -83,7 +82,7 @@ sumarNumeros()
 def numeroEntero():
     num = int(input("Ingrese un numero:"))
     num1 = 1
-    x = 0
+    x = 0 # Lo mismo aca no hace falta
     for x in range(1, num+1):
         num1 *= x
     print(num1)
@@ -148,6 +147,8 @@ def max_min():
 
 max_min()
 
+# en clase vimos una forma un poco mas elegante de hacer estos ultimos dos ejercicios, pero de todas formas no esta mal.
+
 
 #8. Un cliente ha solicitado un programa que le permita ingresar los mililitros de
 #lluvia caídos diariamente en una semana, para que el programa le informe en
@@ -177,5 +178,8 @@ def lluvia():
 
   promedio = suma / contador
   print(f"El promedio en ml es: {promedio} ")
+#  falta mostrar el dia que mas llovio, aunque sea el numero 
+#  dia lo estas asignando con el valos de contador pero nunca lo usas
+
 
 lluvia()
